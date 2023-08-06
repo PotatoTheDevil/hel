@@ -1,1 +1,1 @@
-Repurpose of tomato-web termnial website, since bot is down. 
+Repurpose of tomato-web terminal website (privated), since bot is down. 
