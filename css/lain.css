@@ -1,0 +1,16 @@
+* {image-rendering: pixelated !important;}
+
+img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 625px;
+    height: 824px;
+    margin-top: -475px;
+    margin-left: -324px;
+ }
+ 
+ #amogos {
+   width: 148px;
+   height: 16px;
+ }
