@@ -6,7 +6,7 @@ export default function(output, _hist, ...args) {
       }
     
       const name = args[0].toLowerCase();
-      const exceptions = ["yesgirl", "potato"];
+      const exceptions = ["lou", "potato"];
       let rating = 0;
     
       if (exceptions.includes(name)) {
