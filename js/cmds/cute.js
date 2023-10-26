@@ -6,7 +6,7 @@ export default function(output, _hist, ...args) {
       }
     
       const name = args[0].toLowerCase();
-      const exceptions = ["lou", "potato"];
+      const exceptions = ["potato"];
       let rating = 0;
     
       if (exceptions.includes(name)) {
@@ -16,7 +16,7 @@ export default function(output, _hist, ...args) {
         rating = Math.min(100, Math.floor((name.length / 10) * 100));
       }
     
-      const cuteRating = `<span data-color="pink">${args[0]}</span> is <span data-color="#6ea8f0">${rating}%</span> cute :3`;
+      const cuteRating = `<span data-color="pink">${args[0]}</span> is <span data-color="#6ea8f0">${rating}%</span> cute.`;
     
       output.innerHTML += cuteRating;
     } catch (e) {
