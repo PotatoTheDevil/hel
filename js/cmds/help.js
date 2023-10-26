@@ -11,7 +11,7 @@ export default function(output) {
     <span data-color="pink">hostname</span> <span data-color="grey">-</span> <span data-color="white">Eye Spy</span>   
     <span data-color="pink">echo [text]</span> <span data-color="grey">-</span> <span data-color="white">Prints [text].</span>
     <span data-color="pink">eval [code]</span> <span data-color="grey">-</span> <span data-color="white">Eval [code] As JS. | EX: "eval 2+2" returns 4</span>
-    <span data-color="pink">cute [name]</span> <span data-color="grey">-</span> <span data-color="white">View how cute someone is :3</span>
+    <span data-color="pink">cute [name]</span> <span data-color="grey">-</span> <span data-color="white">View how cute someone is </span>
 
 `;
 }
